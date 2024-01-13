@@ -645,14 +645,13 @@ h3.my-profession{
 
 .portfolio .portfolio-item-inner .portfolio-link .link{
     text-decoration: none;
+    padding: 5px;
     color: var(--bg-black-50);
     background: var(--skin-color);
-    padding: 3px 42px;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
     transition: all 0.5 ease;
     display: inline-block;
-    white-space: nowrap;
     font-size: 16px;
     font-weight: 500;
 }
@@ -822,3 +821,4 @@ h3.my-profession{
         max-width: 100%;
     }
 }
+
