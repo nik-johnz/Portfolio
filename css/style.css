@@ -401,6 +401,7 @@ h3.my-profession{
 
 .about .about-content .personal-info .buttons{
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .about .about-content .personal-info .buttons .btn{
