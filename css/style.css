@@ -651,7 +651,7 @@ h3.my-profession{
 .portfolio .portfolio-item-inner .portfolio-link .link{
     text-decoration: none;
     padding: 5px;
-    color: var(--bg-black-50);
+    color: white;
     background: var(--skin-color);
     border: none;
     border-radius: 5px;
