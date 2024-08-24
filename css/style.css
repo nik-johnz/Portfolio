@@ -562,6 +562,7 @@ h3.my-profession{
 .service .service-item .service-item-inner{
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
+    height: 350px;
     border-radius: 10px;
     padding: 30px 15px;
     text-align: center;
