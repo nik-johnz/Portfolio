@@ -1,7 +1,7 @@
 /* toggle style switvher */
 
 const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
-styleSwitcherToggle.addEventListener("click", () => {
+styleSwitcherToggle.addEventListener("mouseover", () => {
     document.querySelector(".style-switcher").classList.toggle("open");
 });
 
