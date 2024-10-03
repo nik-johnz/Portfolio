@@ -873,7 +873,7 @@ h3.my-profession{
 }
 
 @media (max-width:500px){
-        .home-info p{
+        .home-info .typing{
         font-size: 16px;
         }
 }
