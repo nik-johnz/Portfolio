@@ -322,6 +322,7 @@ h3.my-profession{
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
+    border-radius: 10px;
     left: 60px;
     top: -30px;
 }
@@ -333,6 +334,7 @@ h3.my-profession{
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
+    border-radius: 10px;
     right: 60px;
     bottom: -20px;
 }
@@ -554,10 +556,16 @@ h3.my-profession{
     padding-bottom: 40px;
 }
 
-.skills .skills-item{
+/* .skills .skills-item{
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
+} */
+
+.skills .row{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 20px;
 }
 
 .skills .skills-item .skills-item-inner{
@@ -630,10 +638,16 @@ h3.my-profession{
     font-weight: 500;
 }
 
-.projects .projects-item{
+/* .projects .projects-item{
     flex:  0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
+} */
+
+.projects .row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
 }
 
 .projects .projects-item-inner{
@@ -819,6 +833,16 @@ h3.my-profession{
     .home .home-img{
         display: none;
     }
+    .skills .row{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    .projects .row{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
 }
 
 @media (max-width:767px){
@@ -835,6 +859,16 @@ h3.my-profession{
     }
     .footer .footer-con{
         font-size: 13px;
+    }
+    .skills .row{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    .projects .row{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
     }
 }
 
@@ -863,3 +897,4 @@ h3.my-profession{
         font-size: 10px;  
     }
 }
+
